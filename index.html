@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+  <title>IEEE ADSSSC 2026 | AI-Driven Solutions for Sustainable Smart Cities</title>
+
+  <!-- Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+
+  <!-- Main Styles -->
+  <link rel="stylesheet" href="styles.css?v=2.1">
+
+</head>
+<body>
+  <!-- Top Bar: Logos -->
+ <header class="top-header">
+  <div class="container top-header-inner">
+    <img src="logo-raics.jpg" alt="Sahrdaya Logo" class="logo-main" />
+
+    <div class="header-text-block">
+      <p class="header-line-1">Sahrdaya College of Engineering and Technology (Autonomous)</p>
+      <p class="header-line-2">In association with IEEE Kerala Section</p>
+    </div>
+
+    <img src="ieee-logo.png" alt="IEEE Logo" class="logo-ieee" />
+  </div>
+</header>
+
+
+  <!-- Main Navigation -->
+  <nav class="navbar" aria-label="Main navigation">
+    <div class="container nav-inner">
+      <a href="#home" class="nav-brand">ADSSSC 2026</a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+      <ul class="nav-list">
+        <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="#about-conference"><i class="fas fa-info-circle"></i> About</a></li>
+        <li><a href="#keynote-speakers"><i class="fas fa-user-tie"></i> Keynotes</a></li>
+        <li><a href="#tracks-table"><i class="fas fa-project-diagram"></i> Tracks</a></li>
+        <li><a href="#important-dates"><i class="fas fa-calendar-alt"></i> Dates</a></li>
+        <li><a href="#registration-fees"><i class="fas fa-receipt"></i> Fees</a></li>
+        <li><a href="#author-guidelines"><i class="fas fa-book"></i> Authors</a></li>
+        <li><a href="#organizing-committee"><i class="fas fa-users"></i> Committee</a></li>
+        <li><a href="#about-thrissur"><i class="fas fa-map-marker-alt"></i> Thrissur</a></li>
+        <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero / Home -->
+  <section id="home" class="hero">
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <h1>ADSSSC 2026</h1>
+        <h2>International Conference on AI-Driven Solutions for Sustainable Smart Cities: Challenges and Opportunities</h2>
+        <p class="hero-meta">
+          9–10 April 2026 &middot; Sahrdaya College of Engineering and Technology, Kerala, India
+        </p>
+        <div class="hero-cta">
+          <a href="https://cmt3.research.microsoft.com/ADSSSC2026/" target="_blank" class="btn btn-primary">
+            Submit Paper
+          </a>
+          <a href="#registration-fees" class="btn btn-outline">
+            View Registration Fees
+          </a>
+        </div>
+      </div>
+      <div class="hero-side">
+        <div class="hero-highlight-card">
+          <h3>Key Highlights</h3>
+          <ul>
+            <li>IEEE technically sponsored international conference</li>
+            <li>Indexed proceedings via IEEE Xplore® (subject to acceptance)</li>
+            <li>Keynotes from leading experts in AI, CPS, and smart cities</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+<!-- Custom CPS Banner - Animated -->
+<div class="cps-banner-custom">
+  <img src="adscccbanner.png" alt="CPS for Smart Cities - IEEE ADSSSC 2026" />
+  <div class="cps-text-overlay">
+    <h3>Cyber-Physical Systems</h3>
+    <p>AI + IoT + Sensors + Edge Computing + Real-time Intelligence</p>
+  </div>
+</div>
+
+
+  <!-- About Conference & Sahrdaya -->
+  <section id="about-conference" class="section">
+    <div class="container two-column">
+      <div>
+        <h2>About the Conference</h2>
+        <p>
+          The International Conference on AI-Driven Solutions for Sustainable Smart Cities: Challenges and Opportunities (ADSSSC 2026)
+          focuses on intelligent computational systems that enable inclusive, resilient, and sustainable urban environments across domains
+          such as healthcare, mobility, energy, environment, and infrastructure.
+        </p>
+        <p>
+          The conference brings together researchers, practitioners, and industry professionals to present cutting-edge research,
+          innovative applications, and cross-disciplinary solutions in Electrical, Electronics, Computer Science, Biomedical,
+          Biotechnology, and Information Sciences.
+        </p>
+        <p>
+          ADSSSC 2026 features invited keynotes, technical paper sessions, tutorials, and workshops, and aims to foster strong
+          collaborations between academia, industry, and government agencies.
+        </p>
+      </div>
+      <div>
+        <h2>About Sahrdaya</h2>
+        <p>
+          Sahrdaya College of Engineering &amp; Technology (Autonomous) is a leading engineering institution in Kerala with a strong
+          focus on academic excellence, research, innovation, and industry collaboration.
+        </p>
+        <p>
+          The college offers flagship B.Tech programs in Biotechnology, Biomedical, Civil, Computer Science, Electrical &amp; Electronics,
+          and Electronics &amp; Communication, along with M.Tech programs in Embedded Systems, Industrial Biotechnology, and Computer Science.
+        </p>
+        <p>
+          Sahrdaya is accredited by NBA and NAAC, recognized as a Scientific and Industrial Research Organization (SIRO) by DSIR, and
+          hosts several centers of excellence and innovation hubs that support startups, entrepreneurship, and translational research.
+        </p>
+        <figure class="campus-figure">
+          <img src="sahrdaya.jpg" alt="Sahrdaya College of Engineering and Technology campus view" />
+          <figcaption>Sahrdaya College of Engineering and Technology, Kerala, India</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Keynote Speakers -->
+<section id="keynote-speakers" class="section section-alt">
+  <div class="container">
+    <h2>Keynote Speakers</h2>
+    <p class="section-lead">
+      Distinguished experts delivering keynotes at ADSSSC 2026.
+    </p>
+
+    <!-- Row 1 -->
+    <div class="keynotes-grid">
+      <article class="speaker-card">
+        <div class="speaker-photo">
+          <img src="drroy.jpg" alt="Portrait of Dr. Roy P. Paily" />
+        </div>
+        <div class="speaker-info">
+          <h3>Dr. Roy P. Paily</h3>
+          <p>Professor, Department of Electronics and Electrical Engineering, IIT Guwahati</p>
+          <p class="topic">
+            Topic: <strong>VLSI Devices and Circuits for Smart Cities</strong>
+          </p>
+        </div>
+      </article>
+
+      <article class="speaker-card">
+        <div class="speaker-photo">
+          <img src="drbenny.jpg" alt="Portrait of Dr. Benny Raphael" />
+        </div>
+        <div class="speaker-info">
+          <h3>Dr. Benny Raphael</h3>
+          <p>Professor, Building Technology and Construction Management, IIT Madras</p>
+          <p class="topic">
+            Topic: <strong>Smart Construction for Smart Cities</strong>
+          </p>
+        </div>
+      </article>
+
+      <article class="speaker-card">
+        <div class="speaker-photo">
+          <img src="drharivarma.jpg" alt="Portrait of Dr. Hari Varma" />
+        </div>
+        <div class="speaker-info">
+          <h3>Dr. Hari Varma</h3>
+          <p>Associate Professor, Department of Biosciences and Bioengineering, IIT Bombay</p>
+        </div>
+      </article>
+    </div>
+
+    <!-- Row 2 -->
+    <div class="keynotes-grid">
+      <article class="speaker-card">
+        <div class="speaker-photo">
+          <img src="drbhavathrathan.jpg" alt="Portrait of Dr. B. K. Bhavathrathan" />
+        </div>
+        <div class="speaker-info">
+          <h3>Dr. B. K. Bhavathrathan</h3>
+          <p>Associate Professor, Civil Engineering, IIT Palakkad</p>
+        </div>
+      </article>
+
+      <article class="speaker-card">
+        <div class="speaker-photo">
+          <img src="drarun.jpg" alt="Portrait of Dr. Arun Ashok" />
+        </div>
+        <div class="speaker-info">
+          <h3>Dr. Arun Ashok</h3>
+          <p>Co-Founder, Silizium Circuits Pvt. Ltd., Germany &middot; Researcher &middot; IEEE Senior Member</p>
+        </div>
+      </article>
+
+     <article class="speaker-card anand">
+  <div class="speaker-photo">
+    <img src="dranandnayyar.jpg" alt="Portrait of Dr. Anand Nayyar" />
+  </div>
+  <div class="speaker-info">
+    <h3>Dr. Anand Nayyar</h3>
+    <p>
+      Professor, Scientist, Vice-Chairman (Research) and Director, IoT and Intelligent Systems Lab,<br>
+      School of Computer Science, Duy Tan University, Da Nang, Viet Nam
+    </p>
+    <p class="topic">
+      Topic: <strong>IoT‑Driven Intelligent Systems for Next‑Generation Smart Cities</strong>
+    </p>
+  </div>
+</article>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- Conference Tracks -->
+  <section id="tracks-table" class="section">
+    <div class="container">
+      <h2>Conference Tracks</h2>
+      <p class="section-lead">
+        International Conference on <strong>AI-Driven Solutions for Sustainable Smart Cities: Challenges and Opportunities</strong>.
+      </p>
+
+      <div class="table-wrap">
+        <table class="tracks-table">
+          <thead>
+            <tr>
+              <th>Track</th>
+              <th>Theme</th>
+              <th>Key Focus Areas</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Track 1</td>
+              <td>AI for Sustainable Healthcare Systems</td>
+              <td>AI-driven diagnosis and treatment; biomedical sensors and wearables; telemedicine; clinical decision support; assistive technologies for elderly and differently abled</td>
+            </tr>
+            <tr>
+              <td>Track 2</td>
+              <td>Smart Mobility and Intelligent Transport Systems</td>
+              <td>AI-based traffic management; autonomous and connected vehicles; sustainable urban transport planning; V2X and IoT-enabled mobility; smart logistics</td>
+            </tr>
+            <tr>
+              <td>Track 3</td>
+              <td>AI-Enabled Energy Systems and Smart Grids</td>
+              <td>Renewable energy forecasting; grid optimization; energy storage and management; power-electronic interfaces; demand-response strategies</td>
+            </tr>
+            <tr>
+              <td>Track 4</td>
+              <td>Sensors, Actuators and Edge Intelligence</td>
+              <td>Next-generation sensors for environment and health; edge AI and low-latency inference; energy-harvesting sensor networks; embedded sensing and actuation</td>
+            </tr>
+            <tr>
+              <td>Track 5</td>
+              <td>Communication, IoT and Cyber-Physical Systems</td>
+              <td>5G/6G and IoT networking; AI-driven communication protocols; urban IoT for water, waste, and air quality; cybersecurity and privacy for CPS</td>
+            </tr>
+            <tr>
+              <td>Track 6</td>
+              <td>AI, Algorithms and Sustainability in Urban Systems</td>
+              <td>Algorithms for sustainable planning; AI for climate resilience and disaster management; cross-domain AI integration; policy, ethics, and governance</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Organizing & Advisory Committees -->
+  <section id="organizing-committee" class="section section-alt">
+    <div class="container two-column">
+      <div>
+        <h2>Organizing Committee</h2>
+        <ul class="committee-list">
+          <li><strong>General Chair:</strong> Dr. Gnana King</li>
+          <li><strong>Co-General Chair:</strong> Dr. Uma Krishnakumar</li>
+          <li><strong>TPC Chairs:</strong> Dr. Finto Raphel, Dr. Sreeraj R, Dr. Manishankar S, Dr. Jispaul</li>
+          <li><strong>Publication Chairs:</strong> Dr. Dhanya, Dr. Gopakumar Pathirikkatr, Dr. Ambili Mechoor, Ms. Vidyamol K</li>
+          <li><strong>Publicity Committee:</strong> Dr. Ambily Francis, Dr. Sukhila Krishnan, Dr. Vishnu Gopan</li>
+          <li><strong>Finance Committee:</strong> Mr. Anil Antony, Dr. Drisya M, Dr. V. Vijikala, Dr. Asha S</li>
+        </ul>
+      </div>
+      </div>
+      
+
+   <div>
+       
+         <section id="conference-video" class="section section-alt">
+  <div class="container">
+    <h2>Conference Promo Video</h2>
+    <p class="section-lead">
+      A quick overview of IEEE ADSSSC 2026, its theme, highlights, and venue.
+    </p>
+
+    <div class="video-wrapper">
+      <video class="video-player"
+             controls
+             autoplay
+             muted
+             loop
+             playsinline
+             poster="conference-poster.jpg">
+        <source src="adsssc-promo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+</section>
+
+  <h2>Advisory Committee</h2>
+
+  <div class="committee-columns">
+    <ul class="committee-list advisory">
+      <li>Rev. Fr. Dr. Anto Chungath, Executive Director, Sahrdaya College of Engineering and Technology</li>
+      <li>Dr. Leon Itiachen, Director, Sahrdaya College of Engineering and Technology</li>
+      <li>Dr. Sudha George Vallavi, Joint Director, Sahrdaya College of Engineering and Technology</li>
+      <li>Dr. Ramkumar S, Principal, Sahrdaya College of Engineering and Technology</li>
+      <li>Dr. Vishnu Rajan, Associate Professor, Sahrdaya College of Engineering and Technology</li>
+      <li>Dr. Sreeraj R, Professor, Sahrdaya College of Engineering and Technology</li>
+      <li>Dr. Drisya M, HOD, Sahrdaya College of Engineering and Technology</li>
+      <li>Dr. Parameshachari B D, Head, Dept. of ECE, NMIT, Bengaluru; Founder Chair, IEEE ITS Bangalore Chapter; Founder Chair-Elect, IEEE MYSS; SAC Chair, IEEE Bangalore Section</li>
+      <li>Dr. Michael Friebe, Institute for Advanced Study (IAS), Technische Universität München, Germany</li>
+      <li>Mr. Shone Jose, Student Activities Chair, IEEE Kerala Section</li>
+      <li>Dr. Varun G. Menon, Secretary, IEEE Kochi Subsection; SCMS</li>
+      <li>Dr. Alex P. James, Dean – External Linkages, Digital University Kerala; IEEE CASS Founder</li>
+    </ul>
+
+    <ul class="committee-list advisory">
+      <li>Mr. Soj Thomas, Head of Engineering, Bosch, Bangalore</li>
+      <li>Mr. Libin T. T., Associate Director / Scientist “F”, CDAC, Thiruvananthapuram</li>
+      <li>Dr. Immanuel Alex Pandian, Associate Professor, Department of ECE, Karunya Institute of Technology &amp; Sciences, Coimbatore</li>
+      <li>Mr. Jenu Chacko, Assistant Scientist, LOCI, University of Wisconsin–Madison, USA</li>
+      <li>Ms. Sumitha Sudhakaran, DFT Micro Architect, Intel, USA</li>
+      <li>Dr. K. Hari Babu, Associate Professor, NIT Calicut</li>
+      <li>Dr. Sreenivas Chavali, Associate Professor, Department of Biology, IISER Tirupati</li>
+      <li>Prof. Rajesh Sani, Distinguished Professor, Department of Chemical and Biological Engineering, South Dakota School of Mines and Technology, USA</li>
+      <li>Dr. Abraham C. G., Professor and Head, Department of ECE, Mangalam College of Engineering</li>
+      <li>Dr. Ghevarghese Titus, Professor and Head, Department of ECE, Amal Jyothi Engineering College, Kanjirappally</li>
+      <li>Dr. M. Madheswaran, Professor, Department of ECE, Muthayammal College of Engineering, Namakkal</li>
+      <li>Dr. Jude Hemanth, Professor, Department of ECE, Karunya University, Coimbatore</li>
+    </ul>
+
+    <ul class="committee-list advisory">
+      <li>Dr. Karthik Soman, Research Specialist, University of California, San Francisco</li>
+      <li>Dr. Anilkumar P. R., Scientist G, Division of Tissue Culture, Biomedical Technology Wing, SCTIMST, Kerala</li>
+      <li>Dr. Shubhra Ghosh Dastidar, Professor, Biological Sciences, Bose Institute, Kolkata</li>
+      <li>Dr. K. Krishnamurthy, Professor, NIT Calicut</li>
+      <li>Dr. Sreelekha M. G., Professor, GEC Thrissur</li>
+      <li>Dr. Benny Raphael, Professor, IIT Madras</li>
+      <li>Dr. Vivek R. Das, Associate Professor, MSRIT Bangalore</li>
+      <li>Mr. Raju Mahadevan, Director, Techno Specialist, Dubai</li>
+      <li>Dr. K. Gnana Sheela, Professor, Toc H Institute of Science and Technology</li>
+      <li>Dr. Kumaravel Sundaramoorthy, Associate Professor, NIT Calicut</li>
+      <li>Dr. S. Prabhakar Karthikeyan, Professor, VIT Vellore; IEEE Senior Member</li>
+      <li>Dr. M. P. Selvan, Professor, NIT Trichy; Secretary, IEEE PES Madras Section</li>
+      <li>Dr. Shimin Vayal Veetil, Senior Teaching Fellow, School of Future Transport Engineering, Coventry University, UK</li>
+    </ul>
+  </div>
+</div>
+
+  
+
+
+  <!-- Important Dates -->
+  <section id="important-dates" class="section">
+    <div class="container">
+      <h2>Important Dates</h2>
+      <ul class="dates-list">
+        <li><strong>Call for Papers:</strong> 22 August 2025</li>
+        <li><strong>Draft Paper Submission:</strong> 22 December 2025</li>
+        <li><strong>Notification of Acceptance:</strong> 22 January 2026</li>
+        <li><strong>Final Paper Submission:</strong> 22 February 2026</li>
+        <li><strong>Early Bird Registration:</strong> 24 February 2026</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Registration Fees -->
+  <section id="registration-fees" class="section section-alt">
+    <div class="container">
+      <h2>Registration Fees</h2>
+      <p class="section-lead">
+        Category-wise registration details for IEEE ADSSSC 2026 (inclusive of applicable taxes).
+      </p>
+
+      <div class="fees-grid">
+        <div class="card fees-card">
+          <table class="fees-table">
+            <thead>
+              <tr>
+                <th>Category</th>
+                <th class="right">Fee</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Faculty &mdash; IEEE Members</td>
+                <td class="right">₹ 6,500</td>
+              </tr>
+              <tr>
+                <td>Faculty &mdash; Non-IEEE Members</td>
+                <td class="right">₹ 8,000</td>
+              </tr>
+              <tr>
+                <td>Student &mdash; IEEE Members</td>
+                <td class="right">₹ 5,000</td>
+              </tr>
+              <tr>
+                <td>Student &mdash; Non-IEEE Members</td>
+                <td class="right">₹ 5,500</td>
+              </tr>
+              <tr>
+                <td>Industry Professionals &mdash; IEEE Members</td>
+                <td class="right">₹ 7,600</td>
+              </tr>
+              <tr>
+                <td>Industry Professionals &mdash; Non-IEEE Members</td>
+                <td class="right">₹ 9,000</td>
+              </tr>
+              <tr>
+                <td>Foreign Delegates</td>
+                <td class="right">US$ 255</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <aside class="fees-summary">
+          <h3>Registration Notes</h3>
+          <ul>
+            <li>At least one author of each accepted paper must register for inclusion in the proceedings.</li>
+            <li>Each registration covers one accepted paper; additional papers may attract extra charges as per policy.</li>
+            <li>Details of payment methods and account information will be provided with acceptance notification.</li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- Author Guidelines -->
+  <section id="author-guidelines" class="section">
+    <div class="container">
+      <h2>Author Guidelines</h2>
+      <p>
+        Technical papers describing original, previously unpublished research are invited in all conference tracks.
+        Authors must use the official IEEE conference templates for preparing manuscripts:
+        <a href="https://www.ieee.org/conferences/publishing/templates.html" target="_blank" rel="noopener">
+          IEEE Manuscript Templates
+        </a>.
+      </p>
+      <p>
+        Full papers (maximum 6 pages including references) must be submitted via Microsoft CMT:
+        <a href="https://cmt3.research.microsoft.com/ADSSSC2026/" target="_blank" rel="noopener">
+          ADSSSC 2026 CMT Submission
+        </a>.
+        All submissions will undergo peer review based on originality, technical quality, relevance, and clarity.
+      </p>
+
+      <h3>Paper Selection Process</h3>
+      <ol class="process-list">
+        <li><strong>Step 1 &mdash; Received:</strong> Submitted papers are assigned an ID and mapped to the appropriate track.</li>
+        <li><strong>Step 2 &mdash; Screening:</strong> Initial checks for scope, formatting, plagiarism, and basic quality.</li>
+        <li><strong>Step 3 &mdash; Review:</strong> Eligible papers are sent for detailed technical review.</li>
+        <li><strong>Step 4 &mdash; Revision:</strong> Authors submit revised versions addressing reviewer comments.</li>
+        <li><strong>Step 5 &mdash; Second Review:</strong> Revised papers are re-evaluated for compliance with recommendations.</li>
+        <li><strong>Step 6 &mdash; Decision:</strong> Final accept / reject decision is taken by the Organizing Chair based on TPC recommendations.</li>
+        <li><strong>Step 7 &mdash; Camera-Ready:</strong> Camera-ready papers are checked and confirmed.</li>
+        <li><strong>Step 8 &mdash; Registration:</strong> Registration status is verified for inclusion in the program and proceedings.</li>
+      </ol>
+
+      <div class="note-card">
+        <p>
+          Accepted and presented papers will be submitted for possible publication in the IEEE Xplore® Digital Library, subject to
+          meeting IEEE quality and ethical standards.
+        </p>
+        <p>
+          For queries related to submissions or reviews, contact the Technical Program Committee at
+          <a href="mailto:adsssc@sahrdaya.ac.in">adsssc@sahrdaya.ac.in</a>.
+        </p>
+      </div>
+
+      <h3>Plagiarism and AI Usage Policy</h3>
+      <p>
+        All submissions will be checked for similarity at least twice: at initial screening and before final acceptance.
+        Authors are responsible for ensuring that similarity indices comply with IEEE international conference norms.
+      </p>
+      <p>
+        Authors may use AI-based tools for language editing and grammar checks; however, AI-generated content that introduces
+        ideas, analyses, or results without human oversight is not permitted. Any use of AI tools must be transparently disclosed
+        within the manuscript, in line with IEEE Publication Ethics and Integrity Policy.
+      </p>
+    </div>
+  </section>
+
+  <!-- Submission & Review Platform -->
+  <section id="CMT" class="section section-alt">
+    <div class="container">
+      <h2>Microsoft CMT Acknowledgement</h2>
+      <p>
+        The Microsoft Conference Management Toolkit (CMT) is used to manage the submission, review, and decision processes for
+        ADSSSC 2026. The service is provided free of cost by Microsoft, including Azure infrastructure, software development,
+        and support.
+      </p>
+    </div>
+  </section>
+
+  <!-- About Thrissur -->
+  <section id="about-thrissur" class="section">
+    <div class="container two-column">
+      <div>
+        <h2>About Thrissur</h2>
+        <p>
+          Thrissur, known as the “Cultural Capital of Kerala,” is renowned for its vibrant festivals, historic temples,
+          and rich cultural heritage. The city hosts the famous Thrissur Pooram, one of the most spectacular temple festivals
+          in India.
+        </p>
+        <p>Attractions in and around Thrissur include:</p>
+        <ul>
+          <li><strong>Vadakkumnathan Temple:</strong> An ancient Lord Shiva temple with classic Kerala architecture and murals.</li>
+          <li><strong>Thrissur Zoo and State Museum:</strong> Exhibits regional wildlife, history, and culture.</li>
+          <li><strong>Punnathur Kotta Elephant Sanctuary:</strong> A unique elephant sanctuary offering close-up views of trained elephants.</li>
+          <li><strong>Shakthan Thampuran Palace:</strong> A restored palace museum highlighting Thrissur’s royal legacy.</li>
+          <li><strong>Athirappilly Waterfalls:</strong> Often called the “Niagara of India,” located a short drive from the city.</li>
+        </ul>
+        <p>
+          With its welcoming atmosphere and diverse attractions, Thrissur provides an enriching cultural backdrop for
+          conference participants.
+        </p>
+      </div>
+      <div class="thrissur-image-container">
+        <img src="thrissur.jpg" alt="View of Thrissur city" class="thrissur-image" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Footer -->
+  <footer id="contact" class="footer">
+    <div class="container footer-inner">
+      <div class="footer-contact">
+        <h3>Contact</h3>
+        <p>
+          Phone: <a href="tel:+914802759275">+91 480 275 9275</a><br />
+          Email: <a href="mailto:adsssc@sahrdaya.ac.in">adsssc@sahrdaya.ac.in</a>
+        </p>
+        <p>
+          Sahrdaya College of Engineering and Technology (Autonomous), Kodakara, Thrissur, Kerala, India.
+        </p>
+      </div>
+      <div class="footer-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#home">ADSSSC 2026 Home</a></li>
+          <li><a href="#important-dates">Important Dates</a></li>
+          <li><a href="#registration-fees">Registration</a></li>
+          <li><a href="https://cmt3.research.microsoft.com/ADSSSC2026/" target="_blank" rel="noopener">CMT Submission</a></li>
+          <li><a href="https://www.ieee.org/conferences/publishing/templates.html" target="_blank" rel="noopener">IEEE Templates</a></li>
+        </ul>
+      </div>
+      <div class="footer-meta">
+        <p>&copy; 2026 ADSSSC | Sahrdaya College of Engineering and Technology &middot; IEEE Kerala Section.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Optional: basic JS for mobile nav -->
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const navList = document.querySelector('.nav-list');
+    if (toggle) {
+      toggle.addEventListener('click', () => {
+        navList.classList.toggle('nav-open');
+      });
+    }
+  </script>
+</body>
+</html>
