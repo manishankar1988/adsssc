@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gram Vista | CPS Smart Village Initiative</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f9fafb;
+  color: #1f2937;
+  line-height: 1.6;
+}
+
+/* ---------- HEADER ---------- */
+header {
+  background: linear-gradient(90deg, #0f766e, #1e40af);
+  color: #fff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+header h1 { font-size: 2.6rem; }
+header p { max-width: 900px; margin: auto; }
+
+/* ---------- NAV ---------- */
+nav {
+  background: #fff;
+  padding: 14px;
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #1e40af;
+}
+
+/* ---------- SECTIONS ---------- */
+section {
+  max-width: 1150px;
+  margin: auto;
+  padding: 60px 20px;
+}
+
+h2 { color: #0f766e; }
+
+/* ---------- DECORATIVE BANNERS ---------- */
+.banner {
+  width: 100%;
+  max-height: 260px;
+  object-fit: contain;
+  background: #f1f5f9;
+  border-radius: 16px;
+  padding: 12px;
+  margin: 30px 0;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+}
+
+/* ---------- FEATURE IMAGES (IMPORTANT) ---------- */
+.feature-img {
+  width: 100%;
+  max-width: 900px;
+  margin: 35px auto;
+  display: block;
+  object-fit: contain;
+  background: #f8fafc;
+  border-radius: 18px;
+  padding: 16px;
+  cursor: zoom-in;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+/* ---------- GRID ---------- */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 26px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  font-weight: 600;
+}
+
+/* ---------- GALLERY ---------- */
+.gallery-img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  background: #f8fafc;
+  border-radius: 12px;
+  padding: 8px;
+  cursor: zoom-in;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* ---------- LIGHTBOX ---------- */
+.lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.85);
+  z-index: 2000;
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox img {
+  max-width: 92%;
+  max-height: 92%;
+  object-fit: contain;
+  border-radius: 14px;
+}
+
+.lightbox:target { display: flex; }
+
+/* ---------- FOOTER ---------- */
+footer {
+  background: #111827;
+  color: #e5e7eb;
+  padding: 40px;
+  text-align: center;
+}
+
+/* ---------- MOBILE ---------- */
+@media(max-width:768px){
+  .banner { max-height: 200px; }
+  .gallery-img { height: 150px; }
+}
+</style>
+</head>
+
+<body>
+
+<!-- Institutional Header -->
+<header style="background:#ffffff; padding:10px 0; border-bottom:1px solid #e5e7eb;">
+  <div style="max-width:1200px; margin:auto; text-align:center;">
+    <img 
+      src="sahrdaya_header.jpg" 
+      alt="Sahrdaya College of Engineering and Technology"
+      style="
+        width:100%;
+        max-height:140px;
+        object-fit:contain;
+      ">
+  </div>
+</header>
+
+<!-- Gram Vista Hero Header -->
+<header style="
+  background: linear-gradient(90deg, #0f766e, #1e40af);
+  color: #ffffff;
+  padding: 50px 20px;
+  text-align: center;
+">
+  <h1 style="font-size:2.6rem; margin-bottom:12px;">
+    Gram Vista
+  </h1>
+
+  <p style="max-width:900px; margin:auto; font-size:1.15rem;">
+    An Inclusive <strong>Cyber-Physical Systems (CPS)</strong> Smart Village Initiative
+    aligned with <strong>Unnat Bharat Abhiyan</strong>, connecting rural transformation
+    with global research, industry, and policy through
+    <strong>IEEE ADSSSC 2026</strong>.
+  </p>
+</header>
+
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#village">UBA Village</a>
+  <a href="#architecture">Architecture</a>
+  <a href="#verticals">Verticals</a>
+  <a href="#conference">Conference</a>
+  <a href="#collaboration">Collaborate</a>
+  <a href="#media">Media</a>
+</nav>
+
+<section id="about">
+  <h2 style="color:#0f766e; font-size:2.2rem; margin-bottom:20px;">
+    About Gram Vista
+  </h2>
+
+  <p style="max-width:900px; margin:0 auto 16px auto; font-size:1.15rem; font-weight:500;">
+    An inclusive village-scale <strong>Cyber-Physical Systems (CPS)</strong> initiative integrating
+    <strong>water, energy, agriculture, healthcare, safety, and governance</strong>
+    into a unified digital ecosystem.
+  </p>
+
+  <p style="max-width:900px; margin:0 auto 16px auto; font-size:1.05rem;">
+    Aligned with <strong>Unnat Bharat Abhiyan</strong> and driven by the
+    <strong>Sahrdaya community vision of education through service</strong>,
+    Gram Vista enables sustainable rural transformation through
+    technology, collaboration, and innovation.
+  </p>
+
+  <p style="max-width:900px; margin:0 auto; font-size:1.05rem;">
+    Connecting villages to <strong>global research, industry, and policy platforms</strong>
+    through the <strong>International IEEE ADSSSC 2026 Conference</strong>.
+  </p>
+</section>
+  <a href="#img-about"><img src="image.png" class="feature-img"></a>
+</section>
+
+<section id="village">
+  <h2>Unnat Bharat Abhiyan – Adopted Villages</h2>
+
+  <p style="max-width:900px; margin-bottom:25px;">
+    Under the <strong>Unnat Bharat Abhiyan (UBA)</strong>, Gram Vista is actively
+    engaged with the following adopted villages, enabling real-world deployment
+    and validation of inclusive Cyber-Physical Systems (CPS) solutions in
+    collaboration with the local community.
+  </p>
+
+  <a href="#img-village">
+   
+  </a>
+
+  <div class="grid" style="margin-top:30px;">
+    <div class="card">Vadakkumbhagom</div>
+    <div class="card">Puthenchira</div>
+    <div class="card">Karumathra</div>
+    <div class="card">Thekkumkara</div>
+    <div class="card">Kaduppassery</div>
+  </div>
+   <img src="uhv2.jpg" class="feature-img" alt="UBA Adopted Villages Map">
+</section>
+
+
+<section id="architecture">
+  <h2>Village CPS Architecture</h2>
+
+  <div class="grid">
+    <div class="card">Sensors & Actuators</div>
+    <div class="card">Edge Intelligence</div>
+    <div class="card">Digital Twin</div>
+    <div class="card">Governance Dashboards</div>
+  </div>
+
+  <a href="#img-arch">
+    <img src="architecture.png" class="feature-img" alt="Village CPS Architecture">
+  </a>
+
+  <!-- Dashboard Details -->
+  <h3 style="margin-top:40px; color:#1e40af;">
+    CPS Monitoring & Decision Dashboards
+  </h3>
+
+  <p style="max-width:900px;">
+    The Gram Vista CPS platform includes an integrated, role-based dashboard system
+    that provides real-time visibility, analytics, and control across village
+    infrastructure and services.
+  </p>
+
+  <div class="grid" style="margin-top:25px;">
+    <div class="card">
+      <strong>Water & Environment Dashboard</strong><br>
+      Real-time monitoring of water quality, soil moisture, temperature, and
+      environmental parameters with anomaly alerts and trend analytics.
+    </div>
+
+    <div class="card">
+      <strong>Energy & Microgrid Dashboard</strong><br>
+      Visualization of power consumption, renewable generation, load prioritization,
+      and fault detection for village energy systems.
+    </div>
+
+    <div class="card">
+      <strong>Agriculture & Livelihood Dashboard</strong><br>
+      Crop health indicators, irrigation status, sensor-driven advisories, and
+      predictive insights for sustainable farming.
+    </div>
+
+    <div class="card">
+      <strong>Health & Safety Dashboard</strong><br>
+      Edge-enabled health monitoring, assistive alerts, and safety event tracking
+      supporting community well-being.
+    </div>
+
+    <div class="card">
+      <strong>Governance & Decision Support</strong><br>
+      Digital twin–enabled dashboards for planners and administrators, supporting
+      evidence-based decision-making and policy alignment.
+    </div>
+
+    <div class="card">
+      <strong>Control & Actuation Interface</strong><br>
+      Secure interfaces for controlling pumps, energy devices, and alerts,
+      enabling closed-loop CPS operation.
+    </div>
+  </div>
+
+  <p style="margin-top:25px;">
+    🔗 <strong>Live Dashboard Demo:</strong>
+    <a href="https://drvishnurajan.github.io/cps/" target="_blank">
+      https://drvishnurajan.github.io/cps/
+    </a>
+  </p>
+</section>
+
+
+<section id="verticals">
+  <h2>Gram Vista Verticals</h2>
+  <div class="grid">
+    <div class="card">🌾 Agriculture</div>
+    <div class="card">💧 Water</div>
+    <div class="card">⚡ Energy</div>
+    <div class="card">🏥 Health</div>
+    <div class="card">🛡 Safety</div>
+    <div class="card">🏛 Governance</div>
+  </div>
+  <a href="#img-verticals"><img src="verticals.png" class="feature-img"></a>
+</section>
+
+<section id="conference">
+  <h2>IEEE ADSSSC 2026 Connection</h2>
+  <p>
+    International Conference on AI-Driven Solutions for Sustainable Smart Cities.
+  </p>
+  <a href="#img-conf"><img src="conference.jpg" class="feature-img"></a>
+</section>
+
+<section id="collaboration">
+  <h2>Call for Collaboration</h2>
+  <div class="grid">
+    <div class="card">Academia</div>
+    <div class="card">Industry</div>
+    <div class="card">Investors</div>
+  </div>
+  <a href="#img-collab"><img src="collab.png" class="feature-img"></a>
+</section>
+
+<section id="media">
+  <h2>Media & Gallery</h2>
+
+  <!-- Village & Field Deployments -->
+  <h3>Village & Field Deployments</h3>
+  <div class="grid">
+    <img src="cps1.jpg" class="gallery-img" alt="Village CPS Deployment 1">
+    <img src="cps2.jpg" class="gallery-img" alt="Village CPS Deployment 2">
+    <img src="cps3.jpg" class="gallery-img" alt="Village CPS Deployment 3">
+  </div>
+
+  <!-- CPS Labs & Prototypes -->
+  <h3>CPS Labs & Prototypes</h3>
+  <div class="grid">
+    <img src="deployment.jpg" class="gallery-img" alt="CPS Deployment Prototype">
+    <img src="edgeai.jpg" class="gallery-img" alt="Edge AI CPS Prototype">
+    <img src="sensor1.jpg" class="gallery-img" alt="IoT Sensor Prototype">
+  </div>
+
+  
+
+  <!-- Community Engagement -->
+  <h3>Community Engagement</h3>
+  <div class="grid">
+    <img src="uhv1.jpg" class="gallery-img" alt="UBA Community Interaction 1">
+    <img src="uhv3.jpg" class="gallery-img" alt="UBA Community Interaction 2">
+    <img src="uhv4.jpg" class="gallery-img" alt="UBA Community Interaction 3">
+    <img src="uhv5.jpg" class="gallery-img" alt="UBA Community Interaction 4">
+  </div>
+</section>
+
+<footer>
+  <p>
+    © Gram Vista CPS Initiative | Sahrdaya College of Engineering and Technology<br>
+    Connected with ADSSSC 2026
+  </p>
+</footer>
+
+</body>
+</html>
