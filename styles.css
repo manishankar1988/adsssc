@@ -834,6 +834,28 @@ a:hover::before {
   }
 }
 
+/* Speaker Photo Styling */
+.speaker-photo {
+  width: 180px;              /* uniform size */
+  height: 180px;
+  margin: 0 auto 15px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #f4f4f4;
+}
+
+.speaker-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;         /* ensures proper cropping */
+  border-radius: 50%;
+}
+
+/* Optional: center cards nicely */
+.speaker-card {
+  text-align: center;
+}
+
 
 @media (max-width: 600px) {
   .speaker-card {
