@@ -955,44 +955,25 @@ font-weight:bold;
 
 @media (max-width:768px){
 
-.track-ribbon{
-overflow-x:auto;
-flex-wrap:nowrap;
-}
-
-.track-btn{
-flex:0 0 auto;
-}
-
-}
-   @media (max-width:768px){
-
-/* Track Ribbon */
+/* track ribbon */
 
 .track-ribbon{
 display:flex;
-flex-wrap:wrap;
 gap:10px;
 margin:20px 0;
 justify-content:center;
+flex-wrap:wrap;
 }
 
-/* Buttons */
+/* buttons */
 
 .track-btn{
-padding:10px 18px;
+padding:10px 20px;
 border:none;
 background:#e5e7eb;
 cursor:pointer;
 border-radius:6px;
 font-weight:600;
-font-size:14px;
-transition:0.3s;
-}
-
-.track-btn:hover{
-background:#1e40af;
-color:white;
 }
 
 .track-btn.active{
@@ -1000,15 +981,22 @@ background:#1e40af;
 color:white;
 }
 
-/* Track visibility */
+/* hide tracks */
 
 .track-content{
 display:none;
-margin-top:20px;
 }
+
+/* show active track */
 
 .track-content.active{
 display:block;
+}
+
+/* table scroll */
+
+.table-wrap{
+overflow-x:auto;
 }
 @media (max-width:768px){
 
