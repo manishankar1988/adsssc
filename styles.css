@@ -866,6 +866,35 @@ a:hover::before {
     height: 220px;
   }
 
+
+   .track-ribbon{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin-bottom:25px;
+}
+
+.track-btn{
+padding:10px 20px;
+background:#e5e7eb;
+border:none;
+border-radius:6px;
+cursor:pointer;
+font-weight:600;
+}
+
+.track-btn.active{
+background:#1e40af;
+color:white;
+}
+
+.track-content{
+display:none;
+}
+
+.track-content.active{
+display:block;
+}
   .container {
     padding: 0 12px;
   }
