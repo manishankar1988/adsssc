@@ -141,7 +141,28 @@ footer {
 }
 </style>
 </head>
+<script>
 
+function openTrack(evt, trackName){
+
+let i, content, buttons;
+
+content = document.getElementsByClassName("track-content");
+for(i=0;i<content.length;i++){
+content[i].classList.remove("active");
+}
+
+buttons=document.getElementsByClassName("track-btn");
+for(i=0;i<buttons.length;i++){
+buttons[i].classList.remove("active");
+}
+
+document.getElementById(trackName).classList.add("active");
+evt.currentTarget.classList.add("active");
+
+}
+
+</script>
 <body>
 
 <!-- Institutional Header -->
@@ -382,3 +403,4 @@ footer {
 
 </body>
 </html>
+
