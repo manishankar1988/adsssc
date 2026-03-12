@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="styles.css?v=2.1">
 
 <script>
+
 function openTrack(evt,trackName){
 
 let tracks=document.querySelectorAll(".track-content");
@@ -34,6 +35,7 @@ document.getElementById(trackName).classList.add("active");
 evt.currentTarget.classList.add("active");
 
 }
+
 </script>
 </head>
 <body>
@@ -348,8 +350,7 @@ evt.currentTarget.classList.add("active");
 <button class="track-btn" onclick="openTrack(event,'track5')">Track 5</button>
 <button class="track-btn" onclick="openTrack(event,'track6')">Track 6</button>
 </div>
-
-  <div id="track1" class="track-content active">
+<div id="track1" class="track-content active">
 
 <div class="table-wrap">
 <table class="tracks-table">
@@ -790,8 +791,7 @@ evt.currentTarget.classList.add("active");
 </tbody>
 
 </table>
-
-  <div id="track3" class="track-content">
+<div id="track3" class="track-content">
 
 <h3>Track 3 – AI Enabled Energy Systems and Smart Grids</h3>
 
