@@ -2,118 +2,97 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
-  />
-  <title>IEEE ADSSSC 2027 | AI-Driven Solutions for Sustainable Smart Cities – Second Edition</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ADSSSC 2027 | AI-Driven Solutions for Sustainable Smart Cities</title>
   <meta
     name="description"
-    content="ADSSSC 2027 – Second Edition of the International Conference on AI-Driven Solutions for Sustainable Smart Cities: Challenges and Opportunities, 22–23 October 2027, Sahrdaya College of Engineering and Technology (Autonomous), Kodakara, Thrissur, Kerala."
+    content="ADSSSC 2027 – Second International Conference on AI-Driven Solutions for Sustainable Smart Cities: Challenges and Opportunities, 22–23 October 2027, Sahrdaya College of Engineering and Technology (Autonomous), Kodakara, Thrissur, Kerala, India. In association with IEEE Kerala Section."
   />
 
-  <!-- Icons -->
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-  />
-
-  <!-- Main Styles -->
-  <link rel="stylesheet" href="styles.css?v=2.2">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="site.css?v=1" />
 </head>
 <body>
-  <!-- Top Bar: Logos -->
- <header class="top-header">
-  <div class="container top-header-inner">
-    <img src="logo-raics.jpg" alt="Sahrdaya Logo" class="logo-main" />
 
-    <div class="header-text-block">
-      <p class="header-line-1">Sahrdaya College of Engineering and Technology (Autonomous)</p>
-      <p class="header-line-2">In association with IEEE Kerala Section</p>
+  <!-- Utility bar -->
+  <div class="utility-bar">
+    <div class="container">
+      <span><i class="fas fa-calendar-alt"></i>22–23 October 2027 &nbsp;·&nbsp; Kodakara, Thrissur, Kerala, India</span>
+      <span class="hide-sm"><i class="fas fa-envelope"></i><a href="mailto:adsssc@sahrdaya.ac.in">adsssc@sahrdaya.ac.in</a></span>
     </div>
-
-    <img src="ieee-logo.png" alt="IEEE Logo" class="logo-ieee" />
   </div>
-</header>
 
+  <!-- Branding -->
+  <header class="brand-header">
+    <div class="container">
+      <img src="logo-raics.jpg" alt="Sahrdaya College of Engineering and Technology (Autonomous)" class="logo-inst" />
+      <img src="ieee-logo.png" alt="IEEE" class="logo-ieee" />
+    </div>
+  </header>
 
-  <!-- Main Navigation -->
-  <nav class="navbar" aria-label="Main navigation">
-    <div class="container nav-inner">
-      <a href="#home" class="nav-brand">ADSSSC 2027</a>
-      <button class="nav-toggle" aria-label="Toggle navigation">
-        <span class="nav-toggle-bar"></span>
-        <span class="nav-toggle-bar"></span>
-      </button>
+  <!-- Navigation -->
+  <nav class="site-nav" aria-label="Main navigation">
+    <div class="container">
+      <a href="#home" class="nav-brand">ADSSSC <span>2027</span></a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"><i class="fas fa-bars"></i></button>
       <ul class="nav-list">
-        <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
-        <li><a href="#about-conference"><i class="fas fa-info-circle"></i> About</a></li>
-        <li><a href="#tracks-table"><i class="fas fa-project-diagram"></i> Tracks</a></li>
-        <li><a href="#important-dates"><i class="fas fa-calendar-alt"></i> Dates</a></li>
-        <li><a href="#registration-fees"><i class="fas fa-receipt"></i> Fees</a></li>
-        <li><a href="#author-guidelines"><i class="fas fa-book"></i> Authors</a></li>
-        <li><a href="#organizing-committee"><i class="fas fa-users"></i> Committee</a></li>
-        <li><a href="adsssc2026.html"><i class="fas fa-history"></i> 2026 Edition</a></li>
-        <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#call-for-papers">Call for Papers</a></li>
+        <li><a href="#important-dates">Dates</a></li>
+        <li><a href="#submission">Submission</a></li>
+        <li><a href="#registration">Registration</a></li>
+        <li><a href="#committee">Committee</a></li>
+        <li><a href="#venue">Venue</a></li>
+        <li><a href="adsssc2026.html">ADSSSC 2026</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
   </nav>
 
-  <!-- Hero / Home -->
+  <!-- Hero -->
   <section id="home" class="hero">
-    <div class="container hero-inner">
-      <div class="hero-content">
-        <h1>ADSSSC 2027</h1>
-        <h2>Second International Conference on AI-Driven Solutions for Sustainable Smart Cities: Challenges and Opportunities</h2>
-        <p class="hero-meta">
-          22–23 October 2027 &middot; Sahrdaya College of Engineering and Technology (Autonomous), Kodakara, Thrissur, Kerala, India
-        </p>
-        <div class="hero-cta">
-          <a href="#important-dates" class="btn btn-outline">
-            Call for Papers: 15 January 2027
-          </a>
-          <a href="#tracks-table" class="btn btn-outline">
-            View Conference Tracks
-          </a>
-          <a href="adsssc2026.html" class="btn btn-outline">
-            First Edition (2026)
-          </a>
-        </div>
+    <div class="container">
+      <span class="hero-eyebrow">Second Edition &nbsp;·&nbsp; In association with IEEE Kerala Section</span>
+      <h1>International Conference on AI-Driven Solutions for Sustainable Smart Cities: Challenges and Opportunities</h1>
+      <p class="acronym">ADSSSC 2027</p>
+      <div class="hero-meta">
+        <span><i class="fas fa-calendar-alt"></i>22–23 October 2027</span>
+        <span><i class="fas fa-map-marker-alt"></i>Sahrdaya College of Engineering and Technology (Autonomous), Kodakara, Kerala, India</span>
       </div>
-      <div class="hero-side">
-        <div class="hero-highlight-card">
-          <h3>Key Highlights</h3>
-          <ul>
-            <li>Second edition of the international ADSSSC conference series, in association with IEEE Kerala Section</li>
-            <li>Proceedings intended for submission to IEEE Xplore®, subject to IEEE approval and quality requirements</li>
-            <li>Double-blind peer review across five multidisciplinary tracks</li>
-            <li>Keynotes, tutorials, panel discussions, and special sessions</li>
-          </ul>
-          <h3>For any Queries contact</h3>
-          <ul>
-            <li>Email: <a href="mailto:adsssc@sahrdaya.ac.in">adsssc@sahrdaya.ac.in</a></li>
-          </ul>
-        </div>
+      <div class="hero-actions">
+        <a href="#call-for-papers" class="btn btn-primary">Call for Papers</a>
+        <a href="#important-dates" class="btn btn-light">Important Dates</a>
+        <a href="#submission" class="btn btn-light">Author Guidelines</a>
+      </div>
+      <div class="countdown" id="countdown" aria-label="Countdown to conference">
+        <div><strong id="cd-days">--</strong><span>Days</span></div>
+        <div><strong id="cd-hours">--</strong><span>Hours</span></div>
+        <div><strong id="cd-mins">--</strong><span>Minutes</span></div>
       </div>
     </div>
   </section>
 
-<!-- Custom CPS Banner - Animated -->
-<div class="cps-banner-custom">
-  <img src="adscccbanner.png" alt="AI-Driven Solutions for Sustainable Smart Cities - IEEE ADSSSC 2027" />
-  <div class="cps-text-overlay">
-    <h3>IEEE ADSSSC 2027</h3>
-    <h3>Second Edition</h3>
-    <p>AI + IoT + Smart Energy + Healthcare + Sustainable Infrastructure</p>
-  </div>
-</div>
+  <!-- Key info strip -->
+  <section class="info-strip" aria-label="Key information">
+    <div class="container">
+      <div class="info-item"><div class="label">Conference</div><div class="value">22–23 Oct 2027</div></div>
+      <div class="info-item"><div class="label">Paper Submission</div><div class="value">15 Mar 2027</div></div>
+      <div class="info-item"><div class="label">Review</div><div class="value">Double-blind</div></div>
+      <div class="info-item"><div class="label">Proceedings</div><div class="value">IEEE Xplore®*</div></div>
+    </div>
+  </section>
 
-
-  <!-- About Conference & Sahrdaya -->
-  <section id="about-conference" class="section">
-    <div class="container two-column">
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container grid-2">
       <div>
-        <h2>About the Conference</h2>
+        <div class="section-head">
+          <span class="kicker">About the Conference</span>
+          <h2>Welcome to ADSSSC 2027</h2>
+        </div>
         <p>
           The Second International Conference on AI-Driven Solutions for Sustainable Smart Cities: Challenges and Opportunities
           (ADSSSC 2027) provides an international platform for academicians, researchers, industry professionals, and students
@@ -126,403 +105,407 @@
           practical, and scalable innovation aligned with the United Nations Sustainable Development Goals.
         </p>
         <p>
-          ADSSSC 2027 will feature keynote lectures, technical paper sessions, tutorials, panel discussions, special sessions, and
-          structured networking, fostering collaboration between academia, industry, start-ups, and policymakers.
-        </p>
-
-        <h3>Building on the First Edition</h3>
-        <p>
-          The first edition, held on 9–10 April 2026, received <strong>893 paper submissions</strong>, accepted
-          <strong>301 papers</strong> (an acceptance rate of approximately 33.7%), and recorded <strong>147 registered participants</strong>.
-          The second edition builds on this foundation with stronger international outreach, track-level review coordination,
-          and industry engagement.
-          <a href="adsssc2026.html">View the ADSSSC 2026 archive</a>.
+          The programme will include keynote lectures, technical paper sessions, tutorials, panel discussions, special sessions,
+          and structured networking.
         </p>
       </div>
       <div>
-        <h2>About Sahrdaya</h2>
-        <p>
-          Sahrdaya College of Engineering and Technology (Autonomous), established by the Irinjalakuda Diocesan Educational Trust,
-          is affiliated with APJ Abdul Kalam Technological University and approved by AICTE.
-        </p>
-        <p>
-          The college offers engineering programmes in Biotechnology, Biomedical Engineering, Civil Engineering, Computer Science and
-          Engineering, Electrical and Electronics Engineering, and Electronics and Communication Engineering, along with postgraduate
-          programmes and doctoral research in relevant disciplines.
-        </p>
-        <p>
-          Sahrdaya hosts established innovation and research facilities that support interdisciplinary work, an active IEEE Student
-          Branch, and has organised events including the IEEE International Conference ADSSSC 2026, IEEE Infinia, Google AI Campus Fest,
-          and IEEE–Altair events.
-        </p>
-        <figure class="campus-figure">
-          <img src="sahrdaya.jpg" alt="Sahrdaya College of Engineering and Technology campus view" />
-          <figcaption>Sahrdaya College of Engineering and Technology, Kodakara, Thrissur, Kerala, India</figcaption>
+        <figure class="figure">
+          <img src="sahrdaya.jpg" alt="Aerial view of the Sahrdaya College of Engineering and Technology campus" />
+          <figcaption>Sahrdaya College of Engineering and Technology (Autonomous), Kodakara, Thrissur</figcaption>
         </figure>
+        <h3 style="margin-top:28px;">ADSSSC 2026 — First Edition at a Glance</h3>
+        <div class="stats">
+          <div class="stat"><strong>893</strong><span>Papers submitted</span></div>
+          <div class="stat"><strong>301</strong><span>Papers accepted</span></div>
+          <div class="stat"><strong>33.7%</strong><span>Acceptance rate</span></div>
+          <div class="stat"><strong>147</strong><span>Registered participants</span></div>
+        </div>
+        <p class="table-note">First edition held on 9–10 April 2026. <a href="adsssc2026.html">View the ADSSSC 2026 archive &rarr;</a></p>
       </div>
     </div>
   </section>
 
-  <!-- Keynote Speakers -->
-  <section id="keynote-speakers" class="section section-alt">
+  <!-- Call for Papers -->
+  <section id="call-for-papers" class="section section-alt">
     <div class="container">
-      <h2>Keynote Speakers</h2>
-      <p class="section-lead">
-        Keynote speakers for ADSSSC 2027 will be announced soon.
-        See the <a href="adsssc2026.html#keynote-speakers">distinguished keynote speakers of the first edition</a>.
-      </p>
-    </div>
-  </section>
-
-  <!-- Conference Tracks -->
-  <section id="tracks-table" class="section">
-    <div class="container">
-      <h2>Conference Tracks</h2>
-      <p class="section-lead">
-        ADSSSC 2027 invites original contributions on advances in artificial intelligence, data analytics, smart systems, and emerging
-        technologies that support sustainable urban development. Interdisciplinary submissions are encouraged, subject to the
-        applicable IEEE scope and publication requirements.
-      </p>
-
-      <div class="table-wrap">
-        <table class="tracks-table">
-          <thead>
-            <tr>
-              <th>Track</th>
-              <th>Theme</th>
-              <th>Key Focus Areas</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Track 1</td>
-              <td>Artificial Intelligence and Data-Driven Smart Systems</td>
-              <td>AI for smart-city infrastructure, intelligent transportation, and urban mobility; machine learning and deep learning for real-time analytics and decision support; AI for resource management, energy optimization, and disaster resilience</td>
-            </tr>
-            <tr>
-              <td>Track 2</td>
-              <td>Smart and Renewable Energy Systems</td>
-              <td>AI-enabled smart grids and energy-efficient power systems; AI and IoT for renewable-energy optimization; intelligent energy storage, forecasting, and management</td>
-            </tr>
-            <tr>
-              <td>Track 3</td>
-              <td>Electronics, IoT, Edge Intelligence, and Automation</td>
-              <td>IoT, sensors, embedded systems, and urban automation; industrial automation and smart manufacturing; edge computing, cyber-physical systems, and real-time processing</td>
-            </tr>
-            <tr>
-              <td>Track 4</td>
-              <td>Biomedical and Healthcare Innovations</td>
-              <td>AI in medical imaging, wearable technology, and remote monitoring; IoT-enabled healthcare and connected health systems; healthcare analytics and intelligent decision support</td>
-            </tr>
-            <tr>
-              <td>Track 5</td>
-              <td>Interdisciplinary Engineering for Sustainability</td>
-              <td>Environmental monitoring and climate-resilient infrastructure; secure data architectures, privacy, and trustworthy AI; sustainable materials, smart buildings, and urban infrastructure</td>
-            </tr>
-          </tbody>
-        </table>
+      <div class="section-head">
+        <span class="kicker">Call for Papers</span>
+        <h2>Conference Tracks</h2>
+        <p>
+          Original, unpublished contributions are invited on advances in artificial intelligence, data analytics, smart systems,
+          and emerging technologies that support sustainable urban development. Interdisciplinary submissions are encouraged,
+          subject to the applicable IEEE scope and publication requirements.
+        </p>
       </div>
 
-      <h3>Who Should Participate</h3>
-      <ul>
-        <li>Engineering and technology researchers, academicians, and industry professionals</li>
-        <li>Undergraduate, postgraduate, and doctoral researchers</li>
-        <li>Start-ups, technology developers, policymakers, and organizations working on sustainability</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- Organizing & Advisory Committees -->
-  <section id="organizing-committee" class="section section-alt">
-    <div class="container">
-      <h2>Organizing Committee</h2>
-      <ul class="committee-list">
-        <li><strong>General Chair:</strong> Dr. G. R. Gnana King</li>
-        <li><strong>Co-General Chair:</strong> Dr. Manishankar S</li>
-        <li><strong>TPC Chairs:</strong> Dr. Finto Raphel, Dr. Sreeraj R, Dr. Uma Krishnakumar, Dr. Jispaul, Dr. Jensha Haennah</li>
-        <li><strong>Publication Chairs:</strong> Dr. Vidyamol K, Dr. Gopakumar Pathirikkat (NIT Calicut), Dr. Dhanya Gangadharan, Dr. Akhila M, Dr. Eugene Peter</li>
-        <li><strong>Publicity Chairs:</strong> Dr. Ambily Francis, Dr. Vishnu Rajan, Dr. Vishnu Gopan</li>
-        <li><strong>Finance Committee:</strong> Mr. Anil Antony, Dr. Drisya M</li>
-      </ul>
-
-      <h2>Advisory Committee</h2>
-      <ul class="committee-list">
-        <li>Rev. Fr. Dr. Anto Chungath, Executive Director, Sahrdaya College of Engineering and Technology</li>
-        <li>Dr. Leon Ittiachen, Director, Sahrdaya College of Engineering and Technology</li>
-        <li>Dr. Sudha George Vallavi, Joint Director, Sahrdaya College of Engineering and Technology</li>
-        <li>Dr. Ramkumar S, Principal, Sahrdaya College of Engineering and Technology</li>
-      </ul>
-      <p class="section-lead">
-        The International Advisory Board and Technical Program Committee for ADSSSC 2027 will be announced soon.
-      </p>
-    </div>
-  </section>
-
-  <!-- Promo Video -->
-  <section id="conference-video" class="section">
-    <div class="container">
-      <h2>Conference Promo Video</h2>
-      <p class="section-lead">
-        A look back at IEEE ADSSSC 2026, the first edition of the conference series.
-      </p>
-
-      <div class="video-wrapper">
-        <video class="video-player"
-               controls
-               autoplay
-               muted
-               loop
-               playsinline>
-          <source src="adsssc-promo.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
+      <div class="tracks">
+        <article class="track-card">
+          <i class="fas fa-brain" aria-hidden="true"></i>
+          <span class="track-no">Track 1</span>
+          <h3>Artificial Intelligence and Data-Driven Smart Systems</h3>
+          <ul>
+            <li>AI for smart-city infrastructure, intelligent transportation, and urban mobility</li>
+            <li>Machine learning and deep learning for real-time analytics and decision support</li>
+            <li>AI for resource management, energy optimization, and disaster resilience</li>
+          </ul>
+        </article>
+        <article class="track-card">
+          <i class="fas fa-solar-panel" aria-hidden="true"></i>
+          <span class="track-no">Track 2</span>
+          <h3>Smart and Renewable Energy Systems</h3>
+          <ul>
+            <li>AI-enabled smart grids and energy-efficient power systems</li>
+            <li>AI and IoT for renewable-energy optimization</li>
+            <li>Intelligent energy storage, forecasting, and management</li>
+          </ul>
+        </article>
+        <article class="track-card">
+          <i class="fas fa-microchip" aria-hidden="true"></i>
+          <span class="track-no">Track 3</span>
+          <h3>Electronics, IoT, Edge Intelligence, and Automation</h3>
+          <ul>
+            <li>IoT, sensors, embedded systems, and urban automation</li>
+            <li>Industrial automation and smart manufacturing</li>
+            <li>Edge computing, cyber-physical systems, and real-time processing</li>
+          </ul>
+        </article>
+        <article class="track-card">
+          <i class="fas fa-heartbeat" aria-hidden="true"></i>
+          <span class="track-no">Track 4</span>
+          <h3>Biomedical and Healthcare Innovations</h3>
+          <ul>
+            <li>AI in medical imaging, wearable technology, and remote monitoring</li>
+            <li>IoT-enabled healthcare and connected health systems</li>
+            <li>Healthcare analytics and intelligent decision support</li>
+          </ul>
+        </article>
+        <article class="track-card">
+          <i class="fas fa-city" aria-hidden="true"></i>
+          <span class="track-no">Track 5</span>
+          <h3>Interdisciplinary Engineering for Sustainability</h3>
+          <ul>
+            <li>Environmental monitoring and climate-resilient infrastructure</li>
+            <li>Secure data architectures, privacy, and trustworthy AI</li>
+            <li>Sustainable materials, smart buildings, and urban infrastructure</li>
+          </ul>
+        </article>
+        <article class="track-card">
+          <i class="fas fa-users" aria-hidden="true"></i>
+          <span class="track-no">Who Should Participate</span>
+          <h3>Target Audience</h3>
+          <ul>
+            <li>Engineering and technology researchers, academicians, and industry professionals</li>
+            <li>Undergraduate, postgraduate, and doctoral researchers</li>
+            <li>Start-ups, technology developers, policymakers, and sustainability organizations</li>
+          </ul>
+        </article>
       </div>
-    </div>
-  </section>
-
-  <!-- Gram Vista -->
-  <section id="gramvista" style="padding:60px 20px; background:#f9fafb;">
-    <div style="max-width:1100px; margin:auto;">
-
-      <h2 style="color:#1e40af; text-align:center;">
-        Gram Vista – CPS Smart Village Living Lab
-      </h2>
-
-      <p style="max-width:900px; margin:20px auto; text-align:center; font-size:1.05rem;">
-        <strong>Gram Vista</strong> is an inclusive village-scale
-        <strong>Cyber-Physical Systems (CPS)</strong> Smart Village initiative
-        aligned with <strong>Unnat Bharat Abhiyan</strong> and driven by the
-        <strong>Sahrdaya community vision of education through service</strong>.
-      </p>
-
-      <p style="max-width:900px; margin:auto; text-align:center;">
-        The initiative serves as a <strong>living laboratory</strong> for the ADSSSC conference series,
-        enabling real-world validation of AI, IoT, Digital Twins, and CPS technologies
-        across agriculture, water, energy, healthcare, and governance.
-      </p>
-
-      <div style="text-align:center; margin-top:30px;">
-        <a href="gramvista.html" class="btn" style="
-          padding:12px 26px;
-          background:#1e40af;
-          color:#ffffff;
-          text-decoration:none;
-          border-radius:8px;
-          font-weight:600;
-        ">
-          Explore Gram Vista
-        </a>
-      </div>
-
     </div>
   </section>
 
   <!-- Important Dates -->
   <section id="important-dates" class="section">
-    <div class="container">
-      <h2>Important Dates</h2>
-      <ul class="dates-list">
-        <li><strong>Call for Papers Announcement:</strong> 15 January 2027</li>
-        <li><strong>Paper Submission Deadline:</strong> 15 March 2027</li>
-        <li><strong>First Notification of Acceptance:</strong> 15 July 2027</li>
-        <li><strong>Camera-Ready Submission:</strong> 15 August 2027</li>
-        <li><strong>Early-Bird Registration Deadline:</strong> 31 August 2027</li>
-        <li><strong>Conference Dates:</strong> 22–23 October 2027</li>
-      </ul>
-      <p class="section-lead">
-        Dates are indicative and may be revised; any changes will be announced on this website.
-      </p>
+    <div class="container grid-2">
+      <div>
+        <div class="section-head">
+          <span class="kicker">Timeline</span>
+          <h2>Important Dates</h2>
+          <p>All deadlines are 23:59 Indian Standard Time (IST). Dates are indicative; any revision will be announced on this website.</p>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table class="data-table">
+          <thead><tr><th>Milestone</th><th class="right">Date</th></tr></thead>
+          <tbody>
+            <tr><td>Call for Papers announcement</td><td class="right">15 January 2027</td></tr>
+            <tr><td>Paper submission deadline</td><td class="right">15 March 2027</td></tr>
+            <tr><td>First notification of acceptance</td><td class="right">15 July 2027</td></tr>
+            <tr><td>Camera-ready submission</td><td class="right">15 August 2027</td></tr>
+            <tr><td>Early-bird registration deadline</td><td class="right">31 August 2027</td></tr>
+            <tr class="highlight"><td>Conference dates</td><td class="right">22–23 October 2027</td></tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   </section>
 
-  <!-- Registration Fees -->
-  <section id="registration-fees" class="section section-alt">
-    <div class="container">
-      <h2>Registration Fees</h2>
-      <p class="section-lead">
-        Indicative registration fees for IEEE ADSSSC 2027. Final fees will be announced before registration opens.
-      </p>
+  <!-- Submission -->
+  <section id="submission" class="section section-alt">
+    <div class="container grid-2">
+      <div>
+        <div class="section-head">
+          <span class="kicker">For Authors</span>
+          <h2>Paper Submission Guidelines</h2>
+        </div>
+        <ul>
+          <li>Papers must be original and not previously published or under review elsewhere.</li>
+          <li>Manuscripts must follow the <a href="https://www.ieee.org/conferences/publishing/templates.html" target="_blank" rel="noopener">IEEE conference template</a>.</li>
+          <li>Maximum paper length: <strong>6 pages</strong>, including references, subject to the applicable IEEE policy.</li>
+          <li>Submissions undergo <strong>double-blind peer review</strong>; remove all author names, affiliations, and identifying information.</li>
+          <li>The online submission link will be published with the Call for Papers on 15 January 2027.</li>
+        </ul>
 
-      <div class="fees-grid">
-        <div class="card fees-card">
-          <table class="fees-table">
-            <thead>
-              <tr>
-                <th>Category</th>
-                <th class="right">Indicative Fee</th>
-              </tr>
-            </thead>
+        <h3>Publication</h3>
+        <div class="callout">
+          <p>
+            *Publication in IEEE Xplore® is intended, subject to formal IEEE approval and compliance with IEEE requirements.
+            Copyright, licensing, and indexing arrangements will follow the final agreement and applicable IEEE policies.
+          </p>
+        </div>
+
+        <h3 style="margin-top:28px;">Awards</h3>
+        <p>Best Paper and Young Researcher awards will recognize outstanding contributions, subject to committee approval.</p>
+      </div>
+      <div>
+        <h3>Review Process</h3>
+        <ol class="steps">
+          <li>Submissions are assigned an ID and mapped to the appropriate track.</li>
+          <li>Initial screening for scope, formatting, similarity, and basic quality.</li>
+          <li>Double-blind technical review by the Technical Program Committee.</li>
+          <li>Authors revise their papers to address reviewer comments.</li>
+          <li>Revised papers are re-evaluated for compliance.</li>
+          <li>Final decision based on TPC recommendations.</li>
+          <li>Camera-ready papers are checked and confirmed.</li>
+          <li>Registration is verified for inclusion in the programme and proceedings.</li>
+        </ol>
+
+        <h3>Research Ethics and AI Usage</h3>
+        <p>
+          All submissions are checked for similarity at initial screening and before final acceptance. Conflict-of-interest and
+          research-ethics procedures are documented by the TPC.
+        </p>
+        <p>
+          AI-based tools may be used for language editing only. AI-generated ideas, analyses, or results without human oversight
+          are not permitted, and any AI use must be disclosed in the manuscript in line with the IEEE Publication Ethics and
+          Integrity Policy.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Registration -->
+  <section id="registration" class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker">Registration</span>
+        <h2>Registration Fees</h2>
+        <p>Indicative fees for ADSSSC 2027. Final fees will be announced before registration opens.</p>
+      </div>
+      <div class="grid-2">
+        <div class="table-wrap">
+          <table class="data-table">
+            <thead><tr><th>Category</th><th class="right">Indicative Fee</th></tr></thead>
             <tbody>
-              <tr>
-                <td>Student Author &mdash; IEEE Member</td>
-                <td class="right">₹ 5,000 – 7,000</td>
-              </tr>
-              <tr>
-                <td>Student Author &mdash; Non-IEEE Member</td>
-                <td class="right">₹ 6,000 – 8,000</td>
-              </tr>
-              <tr>
-                <td>Faculty / Researcher Author &mdash; IEEE Member</td>
-                <td class="right">₹ 7,000 – 9,000</td>
-              </tr>
-              <tr>
-                <td>Faculty / Researcher Author &mdash; Non-IEEE Member</td>
-                <td class="right">₹ 8,000 – 11,000</td>
-              </tr>
-              <tr>
-                <td>Attendee (without paper)</td>
-                <td class="right">₹ 1,000 – 2,500</td>
-              </tr>
-              <tr>
-                <td>Foreign Author</td>
-                <td class="right">US$ 150 – 250</td>
-              </tr>
+              <tr><td>Student author — IEEE member</td><td class="right">₹5,000 – ₹7,000</td></tr>
+              <tr><td>Student author — non-member</td><td class="right">₹6,000 – ₹8,000</td></tr>
+              <tr><td>Faculty / researcher author — IEEE member</td><td class="right">₹7,000 – ₹9,000</td></tr>
+              <tr><td>Faculty / researcher author — non-member</td><td class="right">₹8,000 – ₹11,000</td></tr>
+              <tr><td>Attendee (without paper)</td><td class="right">₹1,000 – ₹2,500</td></tr>
+              <tr><td>Foreign author</td><td class="right">USD 150 – 250</td></tr>
             </tbody>
           </table>
         </div>
-
-        <aside class="fees-summary">
-          <h3>Registration Notes</h3>
+        <div class="card">
+          <h3>Registration Policy</h3>
           <ul>
-            <li>Registration will open after the notification of acceptance.</li>
-            <li>At least one author of each accepted paper must register for inclusion in the proceedings.</li>
-            <li>Each registration covers one accepted paper; additional papers may attract extra charges as per policy.</li>
-            <li>Details of payment methods and account information will be provided with the acceptance notification.</li>
-            <li>No refund will be issued after the registration is completed.</li>
+            <li>Registration opens after the notification of acceptance.</li>
+            <li>At least one author of each accepted paper must register for the paper to be included in the proceedings.</li>
+            <li>Each registration covers one accepted paper; additional papers may attract extra charges.</li>
+            <li>Payment details will be shared with the acceptance notification.</li>
+            <li>Registration fees are non-refundable.</li>
           </ul>
-        </aside>
+        </div>
       </div>
     </div>
   </section>
 
-
- <!-- Author Guidelines -->
-  <section id="author-guidelines" class="section">
+  <!-- Keynotes -->
+  <section id="keynotes" class="section section-alt">
     <div class="container">
-      <h2>Author Guidelines</h2>
-      <p>
-        Technical papers describing original, previously unpublished research are invited in all conference tracks.
-        Authors must use the official IEEE conference templates for preparing manuscripts:
-        <a href="https://www.ieee.org/conferences/publishing/templates.html" target="_blank" rel="noopener">
-          IEEE Manuscript Templates
-        </a>.
-      </p>
-      <p>
-        Full papers may be up to <strong>6 pages</strong>, subject to the applicable IEEE conference template and policy.
-        The paper submission link will be announced with the Call for Papers on 15 January 2027.
-        All submissions will undergo <strong>double-blind peer review</strong> based on originality, technical quality,
-        relevance, and clarity; authors must remove all identifying information from submitted manuscripts.
-      </p>
-
-      <h3>Paper Selection Process</h3>
-      <ol class="process-list">
-        <li><strong>Step 1 &mdash; Received:</strong> Submitted papers are assigned an ID and mapped to the appropriate track.</li>
-        <li><strong>Step 2 &mdash; Screening:</strong> Initial checks for scope, formatting, similarity, and basic quality.</li>
-        <li><strong>Step 3 &mdash; Review:</strong> Eligible papers are sent for double-blind technical review.</li>
-        <li><strong>Step 4 &mdash; Revision:</strong> Authors submit revised versions addressing reviewer comments.</li>
-        <li><strong>Step 5 &mdash; Second Review:</strong> Revised papers are re-evaluated for compliance with recommendations.</li>
-        <li><strong>Step 6 &mdash; Decision:</strong> Final accept / reject decision is taken based on TPC recommendations.</li>
-        <li><strong>Step 7 &mdash; Camera-Ready:</strong> Camera-ready papers are checked and confirmed.</li>
-        <li><strong>Step 8 &mdash; Registration:</strong> Registration status is verified for inclusion in the program and proceedings.</li>
-      </ol>
-
-      <div class="note-card">
-        <p>
-          Publication in IEEE Xplore® is intended, subject to formal IEEE approval and compliance with IEEE requirements.
-          Copyright, licensing, and indexing arrangements will follow the final agreement and applicable IEEE policies.
-        </p>
-        <p>
-          For queries related to submissions or reviews, contact the Technical Program Committee at
-          <a href="mailto:adsssc@sahrdaya.ac.in">adsssc@sahrdaya.ac.in</a>.
-        </p>
+      <div class="section-head">
+        <span class="kicker">Programme</span>
+        <h2>Keynote Speakers</h2>
       </div>
-
-      <h3>Awards</h3>
-      <p>
-        Outstanding contributions will be recognized through Best Paper and Young Researcher awards, subject to committee approval.
-      </p>
-
-      <h3>Plagiarism and AI Usage Policy</h3>
-      <p>
-        All submissions will be checked for similarity using a recognized similarity-checking process, at initial screening and
-        before final acceptance. Authors are responsible for ensuring that similarity indices comply with IEEE international
-        conference norms. Review, conflict-of-interest, and research-ethics procedures will be documented.
-      </p>
-      <p>
-        Authors may use AI-based tools for language editing and grammar checks; however, AI-generated content that introduces
-        ideas, analyses, or results without human oversight is not permitted. Any use of AI tools must be transparently disclosed
-        within the manuscript, in line with IEEE Publication Ethics and Integrity Policy.
-      </p>
+      <div class="placeholder">
+        <i class="fas fa-microphone-alt" aria-hidden="true"></i>
+        <p>Keynote speakers for ADSSSC 2027 will be announced soon. See the
+          <a href="adsssc2026.html#keynote-speakers">keynote speakers of the first edition</a>.</p>
+      </div>
     </div>
   </section>
 
-  <!-- About Thrissur -->
-  <section id="about-thrissur" class="section section-alt">
-    <div class="container two-column">
+  <!-- Committee -->
+  <section id="committee" class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker">People</span>
+        <h2>Organizing Committee</h2>
+      </div>
+      <div class="committee">
+        <div class="card">
+          <h3>Advisory Committee</h3>
+          <ul>
+            <li><strong>Rev. Fr. Dr. Anto Chungath</strong><small>Executive Director, Sahrdaya CET</small></li>
+            <li><strong>Dr. Leon Ittiachen</strong><small>Director, Sahrdaya CET</small></li>
+            <li><strong>Dr. Sudha George Vallavi</strong><small>Joint Director, Sahrdaya CET</small></li>
+            <li><strong>Dr. Ramkumar S</strong><small>Principal, Sahrdaya CET</small></li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>General Chairs</h3>
+          <ul>
+            <li><strong>Dr. G. R. Gnana King</strong><small>General Chair · Professor, Sahrdaya CET</small></li>
+            <li><strong>Dr. Manishankar S</strong><small>Co-General Chair · Associate Professor, Sahrdaya CET</small></li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Technical Program Chairs</h3>
+          <ul>
+            <li><strong>Dr. Finto Raphel</strong><small>Associate Professor &amp; Vice Principal, Sahrdaya CET</small></li>
+            <li><strong>Dr. Sreeraj R</strong><small>Professor, Sahrdaya CET</small></li>
+            <li><strong>Dr. Uma Krishnakumar</strong><small>Assistant Professor, Sahrdaya CET</small></li>
+            <li><strong>Dr. Jispaul</strong><small>Head of Department, Sahrdaya CET</small></li>
+            <li><strong>Dr. Jensha Haennah</strong><small>Assistant Professor, Sahrdaya CET</small></li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Publication Chairs</h3>
+          <ul>
+            <li><strong>Dr. Vidyamol K</strong><small>Assistant Professor, Sahrdaya CET</small></li>
+            <li><strong>Dr. Gopakumar Pathirikkat</strong><small>Assistant Professor, NIT Calicut</small></li>
+            <li><strong>Dr. Dhanya Gangadharan</strong><small>Head of Department, Sahrdaya CET</small></li>
+            <li><strong>Dr. Akhila M</strong><small>Head of Department, Sahrdaya CET</small></li>
+            <li><strong>Dr. Eugene Peter</strong><small>Sahrdaya CET</small></li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Publicity Chairs</h3>
+          <ul>
+            <li><strong>Dr. Ambily Francis</strong><small>Head, Dept. of ECE, Sahrdaya CET</small></li>
+            <li><strong>Dr. Vishnu Rajan</strong><small>Associate Professor, Sahrdaya CET</small></li>
+            <li><strong>Dr. Vishnu Gopan</strong><small>Associate Professor, Dept. of EEE, Sahrdaya CET</small></li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Finance Committee</h3>
+          <ul>
+            <li><strong>Mr. Anil Antony</strong><small>IEEE Student Branch Counsellor, Sahrdaya CET</small></li>
+            <li><strong>Dr. Drisya M</strong><small>Head of Department, Sahrdaya CET</small></li>
+          </ul>
+        </div>
+      </div>
+      <p class="table-note">The International Advisory Board and Technical Program Committee will be announced soon.</p>
+    </div>
+  </section>
+
+  <!-- Venue -->
+  <section id="venue" class="section section-alt">
+    <div class="container grid-2">
       <div>
-        <h2>About Thrissur</h2>
+        <div class="section-head">
+          <span class="kicker">Venue</span>
+          <h2>Sahrdaya College of Engineering and Technology</h2>
+        </div>
         <p>
-          Thrissur, known as the “Cultural Capital of Kerala,” is renowned for its vibrant festivals, historic temples,
-          and rich cultural heritage. The city hosts the famous Thrissur Pooram, one of the most spectacular temple festivals
-          in India.
+          Sahrdaya College of Engineering and Technology (Autonomous), established by the Irinjalakuda Diocesan Educational Trust,
+          is affiliated with APJ Abdul Kalam Technological University and approved by AICTE. It offers engineering programmes in
+          Biotechnology, Biomedical, Civil, Computer Science, Electrical and Electronics, and Electronics and Communication
+          Engineering, along with postgraduate and doctoral research programmes.
         </p>
-        <p>Attractions in and around Thrissur include:</p>
-        <ul>
-          <li><strong>Vadakkumnathan Temple:</strong> An ancient Lord Shiva temple with classic Kerala architecture and murals.</li>
-          <li><strong>Thrissur Zoo and State Museum:</strong> Exhibits regional wildlife, history, and culture.</li>
-          <li><strong>Punnathur Kotta Elephant Sanctuary:</strong> A unique elephant sanctuary offering close-up views of trained elephants.</li>
-          <li><strong>Shakthan Thampuran Palace:</strong> A restored palace museum highlighting Thrissur’s royal legacy.</li>
-          <li><strong>Athirappilly Waterfalls:</strong> Often called the “Niagara of India,” located a short drive from the city.</li>
-        </ul>
         <p>
-          With its welcoming atmosphere and diverse attractions, Thrissur provides an enriching cultural backdrop for
-          conference participants.
+          The campus offers a multimedia conference hall, five seminar halls, and a multipurpose indoor stadium, and is home to
+          an active IEEE Student Branch and the
+          <a href="gramvista.html">Gram Vista CPS Smart Village Living Lab</a>.
+        </p>
+        <p>
+          <strong>Address:</strong> Kodakara, Thrissur District, Kerala 680684, India<br />
+          <a href="https://www.google.com/maps/search/?api=1&query=Sahrdaya+College+of+Engineering+and+Technology+Kodakara" target="_blank" rel="noopener"><i class="fas fa-map-marker-alt"></i> View on Google Maps</a>
         </p>
       </div>
-      <div class="thrissur-image-container">
-        <img src="thrissur.jpg" alt="View of Thrissur city" class="thrissur-image" />
+      <div>
+        <figure class="figure">
+          <img src="thrissur.jpg" alt="Thrissur, Kerala" />
+          <figcaption>Thrissur — the Cultural Capital of Kerala</figcaption>
+        </figure>
+        <p style="margin-top:16px;">
+          Thrissur is renowned for its festivals, historic temples, and cultural heritage, including the famous Thrissur Pooram.
+          Nearby attractions include Vadakkumnathan Temple, Shakthan Thampuran Palace, Punnathur Kotta, and the Athirappilly
+          Waterfalls. The nearest airport is Cochin International Airport (COK).
+        </p>
       </div>
     </div>
   </section>
 
-  <!-- Contact & Footer -->
-  <footer id="contact" class="footer">
-    <div class="container footer-inner">
-      <div class="footer-contact">
-        <h3>Contact</h3>
-        <p>
-          Phone: <a href="tel:+914802759275">+91 480 275 9275</a><br />
-          Email: <a href="mailto:adsssc@sahrdaya.ac.in">adsssc@sahrdaya.ac.in</a>
-        </p>
-        <p>
-          Sahrdaya College of Engineering and Technology (Autonomous), Kodakara, Thrissur, Kerala, India.
-        </p>
+  <!-- Footer -->
+  <footer id="contact" class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Contact</h4>
+          <p>
+            ADSSSC 2027 Secretariat<br />
+            Sahrdaya College of Engineering and Technology (Autonomous)<br />
+            Kodakara, Thrissur, Kerala 680684, India
+          </p>
+          <p>
+            <i class="fas fa-envelope"></i> <a href="mailto:adsssc@sahrdaya.ac.in">adsssc@sahrdaya.ac.in</a><br />
+            <i class="fas fa-phone"></i> <a href="tel:+914802759275">+91 480 275 9275</a>
+          </p>
+        </div>
+        <div>
+          <h4>Conference</h4>
+          <ul>
+            <li><a href="#call-for-papers">Call for Papers</a></li>
+            <li><a href="#important-dates">Important Dates</a></li>
+            <li><a href="#submission">Submission Guidelines</a></li>
+            <li><a href="#registration">Registration</a></li>
+            <li><a href="#committee">Committee</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="https://www.ieee.org/conferences/publishing/templates.html" target="_blank" rel="noopener">IEEE Conference Templates</a></li>
+            <li><a href="adsssc2026.html">ADSSSC 2026 (First Edition)</a></li>
+            <li><a href="gramvista.html">Gram Vista Living Lab</a></li>
+          </ul>
+        </div>
       </div>
-      <div class="footer-links">
-        <h3>Quick Links</h3>
-        <ul>
-          <li><a href="#home">ADSSSC 2027 Home</a></li>
-          <li><a href="#important-dates">Important Dates</a></li>
-          <li><a href="#registration-fees">Registration</a></li>
-          <li><a href="adsssc2026.html">ADSSSC 2026 (First Edition)</a></li>
-          <li><a href="https://www.ieee.org/conferences/publishing/templates.html" target="_blank" rel="noopener">IEEE Templates</a></li>
-        </ul>
-      </div>
-      <div class="footer-meta">
-        <p>&copy; 2026 ADSSSC | Sahrdaya College of Engineering and Technology &middot; IEEE Kerala Section.</p>
+      <div class="footer-bottom">
+        &copy; 2026 ADSSSC · Sahrdaya College of Engineering and Technology (Autonomous) · In association with IEEE Kerala Section
       </div>
     </div>
   </footer>
 
-  <!-- Basic JS for mobile nav -->
   <script>
-    const toggle = document.querySelector('.nav-toggle');
-    const navList = document.querySelector('.nav-list');
-    if (toggle) {
-      toggle.addEventListener('click', () => {
-        navList.classList.toggle('nav-open');
+    // Mobile navigation
+    (function () {
+      var toggle = document.querySelector('.nav-toggle');
+      var list = document.querySelector('.nav-list');
+      if (!toggle || !list) return;
+      toggle.addEventListener('click', function () {
+        var open = list.classList.toggle('open');
+        toggle.setAttribute('aria-expanded', open);
       });
-    }
+      list.addEventListener('click', function (e) {
+        if (e.target.tagName === 'A') { list.classList.remove('open'); toggle.setAttribute('aria-expanded', 'false'); }
+      });
+    })();
+
+    // Countdown to 22 Oct 2027, 09:00 IST
+    (function () {
+      var target = new Date('2027-10-22T09:00:00+05:30').getTime();
+      var d = document.getElementById('cd-days'), h = document.getElementById('cd-hours'), m = document.getElementById('cd-mins');
+      function tick() {
+        var diff = Math.max(0, target - Date.now());
+        d.textContent = Math.floor(diff / 86400000);
+        h.textContent = String(Math.floor(diff / 3600000) % 24).padStart(2, '0');
+        m.textContent = String(Math.floor(diff / 60000) % 60).padStart(2, '0');
+      }
+      tick();
+      setInterval(tick, 30000);
+    })();
   </script>
 </body>
 </html>
